@@ -167,6 +167,8 @@ Dentro de main(), después de las llamadas MX_..._Init() pero antes del while(1)
 
 ## 5. Compilar, Cargar y Depurar
 
+-  **Nota:** Si tienes problemas compilando, revisa esta [guía para solucionar el problema de CMake](CMAKE_FIX.md).
+
 - **Construir (Build)**: Usa la interfaz de la extensión STM32 en VS Code para construir el proyecto. Busca un icono de "martillo" o una opción en la paleta de comandos (Ctrl+Shift+P -> STM32: Build Project). Revisa la salida en la terminal de VS Code por errores.
 
 - **Conectar la Placa**: Conecta tu Nucleo-L476RG al PC mediante el cable USB. Debería aparecer como un dispositivo ST-Link.
