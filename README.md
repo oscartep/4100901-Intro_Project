@@ -35,9 +35,10 @@ Comenzaremos con un enfoque práctico y guiado, utilizando herramientas que abst
 
 Esta guía está dividida en varias secciones para facilitar el proceso:
 
-1.  **[Configuración del Entorno (SETUP.md)](Doc/SETUP.md):** Instalación de herramientas (VS Code, STM32 Extensions, Git) y cómo preparar tu copia del proyecto (Fork & Clone).
-2.  **[Configuración del Proyecto con STM32CubeMX (CUBEMX_CONFIG.md)](Doc/CUBEMX_CONFIG.md):** Pasos para configurar los periféricos necesarios (GPIO, UART, Reloj, Interrupciones) usando la interfaz gráfica integrada en VS Code.
-3.  **[Implementación del Código (CODE_IMPLEMENTATION.md)](Doc/CODE_IMPLEMENTATION.md):** Escribir el código C necesario en `main.c` y los archivos de interrupción para implementar la lógica de la aplicación.
+1.  **[Configuración del Entorno (Doc/SETUP.md)](Doc/SETUP.md):** Instalación de herramientas (VS Code, STM32 Extensions, Git) y cómo preparar tu copia del proyecto (Fork & Clone).
+2.  **[Configuración del Proyecto con STM32CubeMX (Doc/CUBEMX_CONFIG.md)](Doc/CUBEMX_CONFIG.md):** Pasos para configurar los periféricos necesarios (GPIO, UART, Reloj, Interrupciones) usando la interfaz gráfica integrada en VS Code.
+3.  **[Implementación del Código (Doc/CODE_IMPLEMENTATION.md)](Doc/CODE_IMPLEMENTATION.md):** Escribir el código C necesario en `main.c` y los archivos de interrupción para implementar la lógica de la aplicación.
+4.  **[Entrega de taller(Doc/DELIVERY.md)](Doc/DELIVERY.md):** Subir loscambios realizados en el proyecto y envias el enlace del repositorio.
 
 ***¡Empecemos!***
 
