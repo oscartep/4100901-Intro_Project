@@ -1,0 +1,15 @@
+flowchart TD
+    Inicio([Inicio del programa])
+    Inicio --> AlmacenarID["Almacenar el valor de ID en memoria [MEM_LOC]"]
+    AlmacenarID --> LlamarRutina["Llamar a la rutina de decremento"]
+    LlamarRutina --> Comparar{"¿Valor en [MEM_LOC] > 0?"}
+    Comparar -- Sí --> RestarYTic[Restar DATE al valor y aumentar contador]
+    RestarYTic --> Comparar
+    Comparar -- No --> Salida[Retornar a main]
+    Salida --> Bucle["Entrar en bucle infinito (terminación)"]
+
+    systick([Systick IRQ Handler])
+    systick --> store_context["Guardar contexto del hilo principal"]
+    store_context --> inc["Incrementar ms counter"]
+    inc --> load_context["Cargar el contexto del hilo principal"]
+    load_context --> thread([Retornar al hilo principal])
