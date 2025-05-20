@@ -219,6 +219,8 @@ En VS Code, puedes buscar Serial Monitor en las extensiones e instalar uno. Lueg
 - Envía un mensaje diferente por UART cuando se presiona el botón.
 - Intenta controlar ambos LEDs (LD2 y el externo) con el botón.
 
-¡Felicidades! Has completado tu primera práctica con STM32. Has configurado periféricos, manejado interrupciones y creado una aplicación básica interactiva. Guarda tus cambios usando Git (`git add .`, `git commit -m "Completada practica introductoria"`, `git push origin main`).
+¡Felicidades! Has completado tu primera práctica con STM32. Has configurado periféricos, manejado interrupciones y creado una aplicación básica interactiva. 
 
 En las próximas sesiones, profundizaremos en cómo funciona todo esto "bajo el capó".
+
+**Siguiente Paso:** [Entrega del taller (DELIVERY.md)](DELIVERY.md)
